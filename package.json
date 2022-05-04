@@ -1,0 +1,30 @@
+{
+  "name": "turborepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th2205/turborepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th2205/turborepo/issues"
+  },
+  "homepage": "https://github.com/th2205/turborepo#readme",
+  "devDependencies": {
+    "turbo": "^1.2.6"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages"
+  ],
+  "private": true
+}
