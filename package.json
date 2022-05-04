@@ -22,9 +22,9 @@
   "devDependencies": {
     "turbo": "^1.2.6"
   },
+  "private": true,
   "workspaces": [
     "apps/*",
-    "packages"
-  ],
-  "private": true
+    "packages/*"
+  ]
 }
